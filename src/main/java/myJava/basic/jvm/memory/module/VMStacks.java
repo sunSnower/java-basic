@@ -1,4 +1,4 @@
-package java.basic.jvm.memory.module;
+package myJava.basic.jvm.memory.module;
 
 /**
  * 虚拟机栈

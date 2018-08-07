@@ -1,4 +1,4 @@
-package java.basic.keyword;
+package myJava.basic.keyword;
 
 /**
  * static方法内部不能调用非静态方法，反过来是可以的
@@ -8,6 +8,9 @@ public class Static {
     /**
      * 静态变量被所有的对象所共享，在内存中只有一个副本
      * 它当且仅当在类初次加载时会被初始化
+     *
+     * 静态变量即类变量，位于方法区，为所有对象共享，共享一份内存
+     * 一旦静态变量被修改，其他对象均对修改可见，故线程非安全
      */
     public static int index = 1;
 

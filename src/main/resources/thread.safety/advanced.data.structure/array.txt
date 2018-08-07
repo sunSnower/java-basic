@@ -1,0 +1,3 @@
+ArrayList LinkedList是非线程安全的，Vector是线程安全的；
+HashMap是非线程安全的， HashTable是线程安全的；
+StringBuilder是非线程安全的， StringBuffer是线程安全的；
