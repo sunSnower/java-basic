@@ -21,4 +21,14 @@ public class Static {
     public static void staticMethod(){
         System.out.println("this is a static method");
     }
+
+    /**
+     * static代码块
+     * 静态代码块可以优化程序性能
+     * 在类初次加载的时候，按照static快的顺序执行代码块，并且只执行一次
+     *
+     */
+    static{
+
+    }
 }

@@ -1,0 +1,10 @@
+java 4种修饰符访问权限 ：
+访问权限    类   包   子类  其他包
+public      Y    Y      Y      Y
+private     Y    N      N      N
+protected   Y    Y      Y      N
+default     Y    Y      N      N
+
+声明：只有public default可以修饰类
+
+protected只有继承该类，才可以访问该类的方法或变量。
