@@ -30,4 +30,3 @@
     Java Gc优化：
         将"stop the world"， jvm应为要执行gc而停止了应用程序 的执行，除了gc所需要的线程外，其他线程都要处于等待状态。
         优化即减少stop the world发生的时间，即减少创建对象的数量。
-        
