@@ -1,4 +1,4 @@
-package myJava.basic.thread.safety.deadLock;
+package myJava.basic.thread.safety.deadLock.deadLockTest;
 
 import java.util.Date;
 
