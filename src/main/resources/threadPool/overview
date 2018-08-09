@@ -1,0 +1,17 @@
+#参考：https://juejin.im/entry/59b232ee6fb9a0248d25139a
+
+java线程池继承结构：
+接口Executor位于最顶层，就一个execute(Runnable runnable)；接口方法
+            Executor
+                |
+            ExecutorService
+                |
+            AbstractExecutorService
+                |
+            ThreadPoolExecutor
+
+Executors类中有用于生成ThreadPoolExecutor实例的静态方法
+
+因为不断创建回收线程需要耗费资源时间，所以线程池解决此类问题
+
+
