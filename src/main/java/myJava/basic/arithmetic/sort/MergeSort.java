@@ -9,7 +9,7 @@ public class MergeSort {
     MergeSort(int[] arr){
         this.arr = arr;
     }
-    
+
     /**
      * 归并排序
      * 是分治法的一种典型应用，且各层可以分开进行

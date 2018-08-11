@@ -7,8 +7,8 @@ public class QuickSort {
     QuickSort(int[] arr){
         this.arr = arr;
     }
-
-    public void swap(int li, int ri){
+    
+    synchronized public void swap(int li, int ri){
         int tempValue = arr[li];
         arr[li] = arr[ri];
         arr[ri] = tempValue;
