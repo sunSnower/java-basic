@@ -1,0 +1,18 @@
+Hashmap:
+性质：
+    1.基于Map接口实现
+    2.允许null键/值
+    3.非同步
+    4.不保证有序(插入顺序)
+    5.不保证不随时间变化
+
+两个重要参数：
+    1.capacity(容量) 默认(1 >> 30)
+    2.Load factor(负载因子) 默认(0.75f)
+
+resize: 当hashmap中元素个数大于capacity*Laad factor时， 需要调整capacity数目为当前的两倍()
+
+#参考：https://yikun.github.io/2015/04/01/Java-HashMap%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86%E5%8F%8A%E5%AE%9E%E7%8E%B0/
+
+
+

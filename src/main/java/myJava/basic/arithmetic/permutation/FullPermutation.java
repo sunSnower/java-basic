@@ -48,5 +48,7 @@ public class FullPermutation {
             sum *= i;
         }
         System.out.println(count +" "+ sum);
+
+        System.out.println((8 >>> 3) + " " + (8 ^ 5));
     }
 }
