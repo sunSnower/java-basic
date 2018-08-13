@@ -1,0 +1,5 @@
+mvc ：
+    mode + view + controller;
+    后端逻辑实现和页面展示 逻辑分开；
+
+
