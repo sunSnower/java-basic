@@ -16,7 +16,7 @@ public class QuickSort {
 
     /**
      * 时间复杂度：
-     * 最有情况下为O(nlogn)
+     * 最好情况下为O(nlogn)
      * 最坏情况下为O(n^2)
      *
      * @param head
