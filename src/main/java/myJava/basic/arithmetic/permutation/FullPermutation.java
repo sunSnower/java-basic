@@ -31,6 +31,7 @@ public class FullPermutation {
             }
         }
     }
+
     public void swap(int li, int ri){
         char tempValue = arr[li];
         arr[li] = arr[ri];

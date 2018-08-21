@@ -11,6 +11,7 @@ public class MyThread implements Runnable {
         this.countDownLatch = countDownLatch;
     }
 
+    @Override
     public void run() {
         for(int i = 0; i < 10000; i++){
             counter.addCount();

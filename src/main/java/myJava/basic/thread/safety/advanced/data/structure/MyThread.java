@@ -12,6 +12,7 @@ class MyThread implements Runnable{
         this.countDownLatch = countDownLatch;
     }
 
+    @Override
     public void run() {
         for(int i = 0; i < 100; i++){
             list.add(new Object());

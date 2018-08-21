@@ -3,6 +3,9 @@ package arithmetic.test;
 import java.util.Arrays;
 
 public class Solution {
+    /**
+     * 求一个有序矩阵中第K个值
+     */
     int[][] matrix;
     Solution(){
 
